@@ -34,7 +34,7 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 
 *(Esta seção deve ser detalhada ao longo do desenvolvimento)*
 
-1.  **Diagrama Elétrico:** O esquema de interconexão dos componentes está disponível em `docs/esquema.pdf`.
+1.  **Diagrama Elétrico:** O esquema de interconexão dos componentes está disponível em `/imagem_2025-07-05_004309366.pdf`.
 
 3.  **Configuração do Ambiente:**
    
