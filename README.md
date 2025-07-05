@@ -34,9 +34,30 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 *(Esta seção deve ser detalhada ao longo do desenvolvimento)*
 
 1.  **Diagrama Elétrico:** O esquema de interconexão dos componentes está disponível em `docs/esquema.pdf`.
-2.  **Configuração do Ambiente:** Detalhamento das bibliotecas e configurações da IDE necessárias.
-3.  **Compilação e Upload:** Instruções para compilar o firmware e transferi-lo para o microcontrolador.
+2.  Configuração do Ambiente:
+   
+    Utilizar o Code Composer Studio (CCS) configurado para o microcontrolador TM4C123GH6PM.
+    
+    Incluir a biblioteca tm4c123gh6pm.h no projeto
+    
+4.  Compilação e Upload:
+  
+    Abrir o projeto no CCS ou Keil.
 
+    Compilar o firmware (Build).
+
+    Conectar o kit Tiva C LaunchPad via cabo USB.
+
+    Gravar o programa no microcontrolador (Debug)
+
+    Executar (Run), observando o comportamento no terminal (LEDs) e no comparador.
+
+5.  Execução e Teste:
+
+    Alterar a luminosidade incidente no LDR para verificar se o comparador gera as bordas.
+
+    Observar os LEDs indicando o valor do contador em binário, incrementando a cada detecção.
+   
 ## 🚀 Cronograma e Evolução (Roadmap)
 
 - [ ] Definição da arquitetura de software.
