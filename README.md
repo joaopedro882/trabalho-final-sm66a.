@@ -2,7 +2,10 @@
 
 ## 📝 Descrição Técnica
 
-Este repositório contém o desenvolvimento de um sistema embarcado para [objetivo do projeto]. O projeto foi concebido como parte dos requisitos avaliativos da disciplina SM66A - Sistemas Microcontrolados.
+Este repositório contém o desenvolvimento de um sistema embarcado para contar eventos detectados por um sensor de luz (LDR) e exibir o valor em forma binária utilizando LEDs.
+O projeto foi concebido como parte dos requisitos avaliativos da disciplina SM66A - Sistemas Microcontrolados.
+
+O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal digital proveniente de um comparador analógico conectado a um LDR. Cada vez que ocorre uma variação de luz suficiente para gerar uma borda de subida no comparador, o microcontrolador incrementa um contador. Este valor é então exibido em 4 LEDs conectados às saídas digitais PF1 a PF4, representando o número de ativações do sensor em formato binário.
 
 ## ✨ Funcionalidades Implementadas (mínimo de 1)
 
