@@ -62,7 +62,7 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
    
 ## 🚀 Cronograma e Evolução (Roadmap)
 
-- [ ] Definição da arquitetura de software.
-- [ ] Implementação do módulo de leitura de sensores.
-- [ ] Implementação da lógica de controle.
-- [ ] Validação e testes funcionais.
+- [x] Definição da arquitetura de software.
+- [x] Implementação do módulo de leitura de sensores.
+- [x] Implementação da lógica de controle.
+- [x] Validação e testes funcionais.
