@@ -34,13 +34,14 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 *(Esta seção deve ser detalhada ao longo do desenvolvimento)*
 
 1.  **Diagrama Elétrico:** O esquema de interconexão dos componentes está disponível em `docs/esquema.pdf`.
-2.  Configuração do Ambiente:
+
+3.  **Configuração do Ambiente:**
    
     Utilizar o Code Composer Studio (CCS) configurado para o microcontrolador TM4C123GH6PM.
     
     Incluir a biblioteca tm4c123gh6pm.h no projeto
     
-4.  Compilação e Upload:
+4.  **Compilação e Upload:**
   
     Abrir o projeto no CCS ou Keil.
 
@@ -52,7 +53,7 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 
     Executar (Run), observando o comportamento no terminal (LEDs) e no comparador.
 
-5.  Execução e Teste:
+5.  **Execução e Teste:**
 
     Alterar a luminosidade incidente no LDR para verificar se o comparador gera as bordas.
 
