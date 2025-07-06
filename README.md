@@ -23,12 +23,12 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 
 ## 🛠️ Hardware e Componentes (mínimo 1)
 
-* Microcontrolador: TM4C123G
+* Microcontrolador: TM4C123G.
 * Sensores: LDR.
 * Atuadores: LEds(cores vermelha, azul, branco e verde).
-* Comparador de tensão: LM 311
-* Resistores
-* Potenciômetro
+* Comparador de tensão: LM 311.
+* Resistores.
+* Potenciômetro.
 
 ## ⚙️ Procedimento de Montagem e Execução
 
