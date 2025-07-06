@@ -42,7 +42,7 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
     
 4.  **Compilação e Upload:**
   
-    Abrir o projeto no CCS ou Keil.
+    Abrir o projeto no CCS.
 
     Compilar o firmware (Build).
 
