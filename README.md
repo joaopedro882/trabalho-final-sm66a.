@@ -146,6 +146,7 @@ void GPIOPortF_Handler(void){
 }
 
 void Delay_ms(unsigned long ms){
+
     volatile unsigned long i, j;
     for(i = 0; i < ms; i++)
         for(j = 0; j < 1600; j++); // Aprox 1ms @16MHz
