@@ -48,7 +48,7 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 
     Conectar o kit Tiva C LaunchPad via cabo USB.
 
-    Gravar o programa no microcontrolador (Debug)
+    Gravar o programa no microcontrolador (Debug).
 
     Executar (Run), observando o comportamento no terminal (LEDs) e no comparador.
 
