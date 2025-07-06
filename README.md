@@ -67,6 +67,7 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 // Variáveis globais
 volatile unsigned long contador = 0;
 const unsigned long LEDS[] = {
+
                                                             0x00, // 0000 (0)
                                                             0x02, // 0010 (1) - PF1
                                                             0x00,
