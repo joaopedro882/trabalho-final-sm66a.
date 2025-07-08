@@ -66,36 +66,37 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 volatile unsigned long contador = 0;
 const unsigned long LEDS[] = {
 
-0x00, // 0000 (0)
-0x02, // 0010 (1) - PF1
-0x00,
-0x04, // 0100 (2) - PF2
-0x00,
-0x06, // 0110 (3) - PF1+PF2
-0x00,
-0x08, // 1000 (4) - PF3
-0x00,
-0x0A, // 1010 (5) - PF1+PF3
-0x00,
-0x0C, // 1100 (6) - PF2+PF3
-0x00,
-0x0E, // 1110 (7) - PF1+PF2+PF3
-0x00,
-0x10, // 0001 (8) - PF4
-0x00,
-0x12, // 0011 (9) - PF1+PF4
-0x00,
-0x14, // 0101 (10) - PF2+PF4
-0x00,
-0x16, // 0111 (11) - PF1+PF2+PF4
-0x00,
-0x18, // 1001 (12) - PF3+PF4
-0x00,
-0x1A, // 1011 (13) - PF1+PF3+PF4
-0x00,
-0x1C, // 1101 (14) - PF2+PF3+PF4
-0x00,
-0x1E  // 1111 (15) - PF1+PF2+PF3+PF4
+ 0x00, // 0000 (0)
+ 0x02, // 0010 (1) - PF1
+ 0x00,
+ 0x04, // 0100 (2) - PF2
+ 0x00,
+ 0x06, // 0110 (3) - PF1+PF2
+ 0x00,
+ 0x08, // 1000 (4) - PF3
+ 0x00,
+ 0x0A, // 1010 (5) - PF1+PF3
+ 0x00,
+ 0x0C, // 1100 (6) - PF2+PF3
+ 0x00,
+ 0x0E, // 1110 (7) - PF1+PF2+PF3
+ 0x00,
+ 0x10, // 0001 (8) - PF4
+ 0x00,
+ 0x12, // 0011 (9) - PF1+PF4
+ 0x00,
+ 0x14, // 0101 (10) - PF2+PF4
+ 0x00,
+ 0x16, // 0111 (11) - PF1+PF2+PF4
+ 0x00,
+ 0x18, // 1001 (12) - PF3+PF4
+ 0x00,
+ 0x1A, // 1011 (13) - PF1+PF3+PF4
+ 0x00,
+ 0x1C, // 1101 (14) - PF2+PF3+PF4
+ 0x00,
+ 0x1E  // 1111 (15) - PF1+PF2+PF3+PF4
+ 
 };
 
 void PortF_Init(void);
