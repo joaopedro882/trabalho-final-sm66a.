@@ -16,7 +16,7 @@ O sistema é implementado em um microcontrolador TM4C123, que recebe um sinal di
 ## ✨ Periféricos Utilizados (mínimo de 4)
 
 - GPIO (PORTF)
-- Delay
+- Timer
 - Clock
 - Interrupção
 
